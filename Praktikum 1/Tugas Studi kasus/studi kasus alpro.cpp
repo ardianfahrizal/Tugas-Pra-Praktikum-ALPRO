@@ -8,15 +8,12 @@ int main()
     int jumlah_beli, bayar, diskon, jumlah[100], harga[100],total[50];
     float total_semua;
     string nama_barang[100];
-    cout<<"Menu:"<<endl;
-    cout<<"Ayam Bakar 21.000"<<endl;
-    cout<<"Ayam Goreng 17.000"<<endl;
     cout<<"\nMasukan Jumlah Beli :";
     cin>> jumlah_beli; 
 
     for (int i=0;i<jumlah_beli;i++){
     	cin.ignore();
-        cout<<"\nMasukan Makanan ke- "<<i+1<<"\n\n";
+        cout<<"\nMasukan barang ke- "<<i+1<<"\n\n";
         cout<<"Nama Barang : ";
         getline(cin,nama_barang[i]); 
 
@@ -39,9 +36,14 @@ int main()
         cout<<i+1<<setw(8)<<""<<nama_barang[i]<<setw(10)<<""<<jumlah[i]<<setw(12)<<""<<harga[i]<<setw(12)<<total[i]<<endl;
     }
 
-    
-    if(total_semua>=45000){
-    	diskon=total_semua*10/100;
+    if(total_semua>=100000){
+        diskon=0.06*total_semua;
+    }else if(total_semua>= 50000){
+        diskon=0.04;
+    }else if(total_semua>= 25000){
+        diskon=0.02;
+    }else{
+        diskon=0;
     }
 
     cout<<"\nJumlah Bayar : Rp."<<total_semua<<endl;
