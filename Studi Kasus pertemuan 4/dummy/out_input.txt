@@ -1,0 +1,11 @@
+500000
+3 
+pensil  
+2 
+2000 
+buku alpro
+1
+10000  
+buku bahasa indo
+1
+20000
