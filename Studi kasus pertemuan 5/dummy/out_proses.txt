@@ -1,0 +1,12 @@
+budi //nama
+2100018400 //nim
+alpro,pweb,matdisk //daftar_matkul
+10 sks //total_sks
+600000//total_pembayaran
+3 //jumlah_matkul
+alpro //matkul
+5 //jumlah sks
+pweb //matkul
+3 //jumlah sks
+matdisk // matkul
+2

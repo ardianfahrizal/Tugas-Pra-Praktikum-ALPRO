@@ -1,0 +1,7 @@
+3 //jumlah_matkul
+alpro //matkul
+5 //jumlah sks
+pweb //matkul
+3 //jumlah sks
+matdisk // matkul
+2
